@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: PressStart2P-Regular;
+	src:url(../fonts/PressStart2P-Regular.ttf);
+}
+html,body{
+	font-family: PressStart2P-Regular;
+	letter-spacing: 1px;
+	line-height: 27px;
+}
+body{
+	background-color: lightgrey;
+}
+span {
+  display:inline-block;
+  padding: 40px;
+  width: 400px;	
+  height:100px ;
+  background-color: lightcyan;
+  box-shadow: 0 0 0 1px #aaa;
+  border-radius: 5px;
+  text-align: center;
+  margin-left:5px;
+  color:black;
+}
+.h1{
+	font-size:2.2rem;
+}
+.header{
+	text-align: center;
+	margin-top:15%;
+}
+.buttons{
+	margin-top:5rem;
+}
+.king{
+	margin:0 10%;
+}
+.nosecret{
+	display:flex;
+	-ms-align-items: center;
+	align-items: center;
+
+}
+.king123{
+	background-color: black;
+  opacity: 0.5;
+	transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+.king123:hover{
+	opacity: 1;
+	transform: scale(1.1);
+	transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+.queen123{
+	block-size: 500px;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+.queen123:hover{
+	opacity: 1;
+	transform: scale(1.1);
+	transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+.h2{
+	display:block;
+	text-align: center;
+	margin-top:200px;
+	margin-bottom:40px;
+	font-size:2.2rem;
+}
+.text{
+	text-indent: 40px;
+	font-size:1.2rem;
+	padding-top:20px;
+}
+.text2{
+	text-indent: 40px;
+	font-size:1.2rem;
+	padding-right:10%;
+	padding-top:20px;
+}
+.jevil123{
+	block-size:500px;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+.jevil123:hover{
+	opacity: 1;
+	transform: scale(1.1);
+	transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+.spamtonneo{
+	block-size:500px;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+.spamtonneo:hover{
+	opacity: 1;
+	transform: scale(1.1);
+	transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+.jevil{
+	margin-left: 10%;
+}
+.linkback{
+
+	background-color:black;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.exit{
+	color:red;
+  font-size:45px;
+	text-decoration: none;
+	margin:100px;
+	
+}
+.text3{
+	text-indent: 40px;
+	font-size:1.2rem;
+	padding-right:25%;
+	padding-top:20px;
+}
